@@ -472,6 +472,11 @@ section.formcontato div.formcontato__contacto div.formcontato__text form input {
     width: 90%;
     height: 3.5rem;
     border-radius: 4px;
+
+}
+
+section.formcontato div.formcontato__contacto div.formcontato__text form input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px white inset;
 }
 
 section.formcontato div.formcontato__contacto div.formcontato__text form textarea {
