@@ -323,9 +323,11 @@
                     <h3 class="formcontato__subtext">Quer entrar em contato comigo?</h3>
                     <h3 class="formcontato__subtext">Preencha o formulário abaixo que logo entrarei em contato com você.
                     </h3>
-                    <form class="formcontato__form" action="https://formsubmit.co/floriponario@gmail.com" method="POST">
+                    <form class="formcontato__form" action="https://formsubmit.co/floriponario@gmail.com" method="POST"
+                        onsubmit="menssagem()">
                         <input type="hidden" name="_captcha" value="false">
-                        <input type="hidden" name="_next" value="https://thiago-sv.github.io/challenge-one-portfolio/">
+                        <input type="hidden" name="_next" value="https://thiago-sv.github.io/challenge-one-portfolio/"
+                            oninput="menssagem()">
                         <input class="formcontato__input" name="nome" type="text" id="nome" placeholder="Nome" required>
                         <input class="formcontato__input" type="email" name="email" id="email" placeholder="Email"
                             required>

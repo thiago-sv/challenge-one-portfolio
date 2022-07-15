@@ -377,13 +377,17 @@ section.experience div.experience__info button {
 
 
 section.experience div.experience__info button.experiencia__botao--repo {
-
-
     padding: 1rem;
     width: 6.25rem;
     height: 3.1875rem;
     color: var(--azul-botoes);
     border: 1px solid var(--azul-botoes);
+    border-bottom: 3px solid navy;
+    border-right: 3px solid navy;
+}
+
+section.experience div.experience__info button.experiencia__botao--repo:active {
+    transform: translateY(4px);
 }
 
 section.experience div.experience__info button.experiencia__botao--demo {
@@ -392,7 +396,13 @@ section.experience div.experience__info button.experiencia__botao--demo {
     height: 3.1875rem;
     color: #FFFFFF;
     border: 1px solid var(--azul-botoes);
+    border-bottom: 3px solid navy;
+    border-right: 3px solid navy;
     background-color: var(--azul-botoes);
+}
+
+section.experience div.experience__info button.experiencia__botao--demo:active {
+    transform: translateY(4px);
 }
 
 /*Contato*/
@@ -476,8 +486,14 @@ section.formcontato div.formcontato__contacto div.formcontato__text form button 
     height: 3.1875rem;
     color: #FFFFFF;
     border: 1px solid var(--azul-botoes);
+    border-bottom: 3px solid navy;
+    border-right: 3px solid navy;
     background-color: var(--azul-botoes);
     cursor: pointer;
+}
+
+section.formcontato div.formcontato__contacto div.formcontato__text form button:active {
+    transform: translateY(4px);
 }
 
 /*footeer*/

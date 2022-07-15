@@ -8,6 +8,10 @@ function backToTop() {
     }
 }
 
+function menssagem() {
+    return alert("Menssagem enviada com sucesso");
+}
+
 window.addEventListener('scroll', function () {
 
     backToTop();
