@@ -382,8 +382,8 @@ section.experience div.experience__info button.experiencia__botao--repo {
     height: 3.1875rem;
     color: var(--azul-botoes);
     border: 1px solid var(--azul-botoes);
-    border-bottom: 3px solid navy;
-    border-right: 3px solid navy;
+    border-bottom: 2px solid navy;
+    border-right: 2px solid navy;
 }
 
 section.experience div.experience__info button.experiencia__botao--repo:active {
@@ -396,8 +396,8 @@ section.experience div.experience__info button.experiencia__botao--demo {
     height: 3.1875rem;
     color: #FFFFFF;
     border: 1px solid var(--azul-botoes);
-    border-bottom: 3px solid navy;
-    border-right: 3px solid navy;
+    border-bottom: 2px solid navy;
+    border-right: 2px solid navy;
     background-color: var(--azul-botoes);
 }
 
@@ -486,8 +486,8 @@ section.formcontato div.formcontato__contacto div.formcontato__text form button 
     height: 3.1875rem;
     color: #FFFFFF;
     border: 1px solid var(--azul-botoes);
-    border-bottom: 3px solid navy;
-    border-right: 3px solid navy;
+    border-bottom: 2px solid navy;
+    border-right: 2px solid navy;
     background-color: var(--azul-botoes);
     cursor: pointer;
 }
