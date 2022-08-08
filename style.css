@@ -639,7 +639,7 @@ section.footer div.footer__rodape {
 
 }
 
-@media (min-width: 425px) and (max-width: 768px) {
+@media (max-width: 425px) {
 
     /*Menu*/
 
