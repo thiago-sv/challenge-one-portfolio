@@ -27,7 +27,7 @@ for (const link of links) {
 const backToTopButton = document.querySelector('.back-to-top')
 
 function backToTop() {
-    if (window.scrollY >= 500) {
+    if (window.scrollY >= 200) {
         backToTopButton.classList.add('show')
     } else {
         backToTopButton.classList.remove('show')
